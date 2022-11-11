@@ -234,6 +234,9 @@ VALUES ('Almost done', '00:02:12', 6);
 INSERT INTO songs (name, duration, album_id)
 VALUES ('My last one, yay!', '00:03:58', 8);
 
+INSERT INTO songs (name, duration, album_id)
+VALUES ('That was not last', '00:03:58', NULL);
+
 
 INSERT INTO playlists (name, date_release)
 VALUES ('Inspiration', '2020');
@@ -322,3 +325,4 @@ VALUES (5, 20);
 
 INSERT INTO playlistssongs (playlist_id, song_id)
 VALUES (6, 10);
+
